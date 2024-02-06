@@ -8,7 +8,7 @@ namespace android
     public:  
         void add100(int n);  
         private:  
-        static const void getExampleService();  
+        static void getExampleService();  
     };  
 }; //namespace   
 #endif // ANDROID_CLIENT_EXAMPLE_H  

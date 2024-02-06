@@ -1,0 +1,8 @@
+#
+# Trigger cust manager in the init process
+#
+
+service Example /system/bin/Example
+    class core
+    user root
+    group root

@@ -33,6 +33,8 @@ LOCAL_SHARED_LIBRARIES := \
     libbinder \
     libExampleService
     
+LOCAL_INIT_RC := example.rc        #android 7.0
+
 LOCAL_SRC_FILES := Example.cpp
 LOCAL_MODULE := Example
 include $(BUILD_EXECUTABLE)

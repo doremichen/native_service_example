@@ -15,7 +15,7 @@ namespace android {
     {  
         ALOGE("ExampleService instantiate");  
         //  
-        int r = defaultServiceManager()->addService(String16("altek.example.service"), new ExampleService());  
+        int r = defaultServiceManager()->addService(String16("example.native.service"), new ExampleService());  
         ALOGE("ExampleService r = %d/n", r);  
         return r;  
     }  
